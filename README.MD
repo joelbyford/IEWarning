@@ -1,6 +1,9 @@
 # IEWarning
 A simple JavaScript snippet to detect browsers running on IE and recommend a variable replacement.
 
+# IMPORTANT NOTE
+Microsoft manages a list of websites that no longer support IE in the form of a "Needs Edge" list.  Rather than doing the work outlined in this repo, it may be far simpler to add your URL to that list instead by following the instructions provided on the Microsoft Docs website here: https://docs.microsoft.com/en-us/microsoft-edge/web-platform/ie-to-microsoft-edge-redirection
+
 -------------
 # Installation
 ## 1. Include the Required Files

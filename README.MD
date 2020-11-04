@@ -1,10 +1,10 @@
 # IEWarning
-A simple javascript snippet to detect browsers running on IE and recommend a variable replacment.
+A simple JavaScript snippet to detect browsers running on IE and recommend a variable replacement.
 
 -------------
 # Installation
 ## 1. Include the Required Files
-Copy/paste the following files in a web-accessible locadtion for your webpages:
+Copy/paste the following files in a web-accessible location for your webpages:
 * ```iewarnings.js```
 * ```Images``` directory
 
@@ -35,7 +35,7 @@ Add a div named 'div-slidedown' to the top of your webpage so that the warning m
 May be omitted if not using JQuery-style warnings and are instead relying only on a simple dialog box warning (see function parameters).
 
 ## 4. Trigger the IE Check/Warning
-Can be done in several ways, such as in the onlaod method of the body, or by using $(document).ready() using a traditional JQuery approach.  The onload method is shown here:
+Can be done in several ways, such as in the onload method of the body, or by using $(document).ready() using a traditional JQuery approach.  The onload method is shown here:
 ```
 <body onload="ieWarning('Message to show', true, 'edge', 50)">
 ```

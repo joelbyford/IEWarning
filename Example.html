@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>IE to Edge Warning Example</title>
+
+        <!-- Include the Required Files & Styles -->
+        <!-- *********************** -->
+        <!-- ** REQUIRED (1 of 2) ** -->
+        <!-- *********************** -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="./iewarning.js"></script>
+        <style>
+            #div-slidedown{
+                padding:10px;
+                display:none;
+                text-align:center;
+                background-color:white;
+                border:solid 1px black;
+            }
+        </style>
+        <!-- ************************ -->
+        <!-- ** /REQUIRED (1 of 2) ** -->
+        <!-- ************************ -->
+
+        <!-- ******************************* -->
+        <!-- ** For Demo Only, Do not Use ** -->
+        <!-- ******************************* -->
+        <!-- Just Style Sheet Stuff to make this demo look prettier. Replace with your own website's stylesheets -->
+        <link href="MetroStyle/default.css" rel="stylesheet" />
+        <!-- ******************************** -->
+        <!-- ** /For Demo Only, Do not Use ** -->
+        <!-- ******************************** -->
+    </head>
+
+    <!-- *********************** -->
+    <!-- ** REQUIRED (2 of 2) ** -->
+    <!-- *********************** -->
+    <body onload="ieWarning('Replace this text with some warning you want to show users.', true, 'edge', 50)">
+        <div id="div-slidedown"></div>
+    <!-- ************************ -->
+    <!-- ** /REQUIRED (2 of 2) ** -->
+    <!-- ************************ -->
+        <h1>IEToEdgeWarning.html</h1>
+        <h2>Example to Show IE Logo & Link via JQuery Animated Window</h2>
+        <p>This example (when opened in IE) automatically shows a warning to users that IE is not supported by this website and recommends they open this site in Edge (or download Edge). This example uses JQuery and an animated Div [drawer] at the top of the screen.</p>
+        <p><table width="100%" border=1><tr><td bgcolor="lightgrey">
+            <p>Here is the required code added to the page (which you need to add to any page using this project):</p>
+            <pre><font style="font-size:small;">
+&lt;script src="https://code.jquery.com/jquery-3.5.1.min.js"&gt;&lt;/script&gt;
+&lt;script src="../iewarning.js"&gt;&lt;/script&gt;
+&lt;style&gt;
+    #div-slidedown{
+        padding:10px;
+        display:none;
+        text-align:center;
+        background-color:white;
+        border:solid 1px black;
+    }
+&lt;/style&gt;
+            </font></pre>
+        </td></tr></table></p>
+        <p><table width="100%" border=1><tr><td  bgcolor="lightgrey">
+            <p>Here is the code that activates this screen:</p>
+            <pre><font style="font-size:small;">
+&lt;body onload="ieWarning('Replace this text with some warning you want to show users.', true, 'edge', 50)"&gt;
+    &lt;div id="div-slidedown"&gt;&lt;/div&gt;
+            </font></pre>
+        </td></tr></table></p>
+        
+    </body>
+</html>
